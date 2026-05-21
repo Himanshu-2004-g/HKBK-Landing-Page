@@ -479,7 +479,7 @@ const RECRUITER_LOGOS = [
   { name: 'Accenture', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Accenture_logo.svg/960px-Accenture_logo.svg.png' },
   { name: 'Northern Trust', url: 'https://www.globalcustodian.com/wp-content/uploads/2025/02/png-clipart-northern-trust-bank-logo-nasdaq-investment-northern-company-text.png' },
   { name: 'Panacea Medical', url: 'https://www.panaceamedical.in/wp-content/uploads/2023/07/3.-PMT-Logo-01-768x868.jpg' },
-  { name: 'Whyflex', url: 'https://whyflexhcs.com/wp-content/uploads/2016/07/new-logo33.png' },
+  { name: 'Whyflex', url: 'https://i.postimg.cc/3RxDrKPC/new-logo33.png' },
   { name: 'Intellipaat', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Intellipaat-logo.png/960px-Intellipaat-logo.png' }
 ];
 
