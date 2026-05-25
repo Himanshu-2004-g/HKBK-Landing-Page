@@ -28,7 +28,8 @@ import {
   Calculator,
   FileText,
   Search,
-  Landmark
+  Landmark,
+  Check
 } from 'lucide-react';
 
 // --- Data Models ---
@@ -72,7 +73,12 @@ const PROGRAMS = [
     image: 'https://i.postimg.cc/zB941Vg4/DBP05835.jpg',
     imagePosition: 'object-[center_30%]',
     duration: '3 Years',
-    description: 'One of the best BCA colleges in Bangalore — our 3-year BCA program equips you with cutting-edge skills in software development, web technologies, databases, cloud computing, and AI. Perfect for students near Bangalore looking for a future-proof tech career without an engineering degree.',
+    description: [
+      'BCA + Cybersecurity, Ethical Hacking & Digital Forensics',
+      'BCA + AI & ML + Cloud Computing + DevOps',
+      'BCA + Data Science & Big Data Analytics',
+      'BCA + AI Robotics + IoT'
+    ],
     features: [
       'Full Stack Web Development (MEAN / MERN Stack)',
       'Python, Java, C++, Data Structures & Algorithms',
@@ -536,9 +542,20 @@ const ProgramCard = ({ index, program }: { index: number, program: typeof PROGRA
           {program.fullName}
         </h3>
         {/* We can hide descriptions to match a more compact info view, or just show list, let's keep description short */}
-        <p className="text-slate-600 text-sm leading-relaxed mb-4">
-          {program.description}
-        </p>
+        {Array.isArray(program.description) ? (
+          <ul className="space-y-2 mb-4">
+            {program.description.map((item, idx) => (
+              <li key={idx} className="flex items-start gap-2.5 text-slate-700 text-[0.85rem] font-semibold leading-snug">
+                <Check className="w-4 h-4 text-hkbk-red shrink-0 mt-0.5" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-slate-600 text-sm leading-relaxed mb-4">
+            {program.description}
+          </p>
+        )}
       </div>
       
       <div className="pt-4 border-t border-slate-100 flex-1">
