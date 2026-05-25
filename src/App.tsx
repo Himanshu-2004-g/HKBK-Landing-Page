@@ -116,7 +116,11 @@ const PROGRAMS = [
     image: 'https://i.postimg.cc/Bv7dMhQQ/DBP05896.jpg',
     imagePosition: 'object-[center_15%]',
     duration: '3 Years',
-    description: 'Among the top BCom colleges in Bangalore — HKBK\'s BCom program builds a rock-solid foundation in accounting, finance, taxation, and business law. Whether you\'re aiming for CA, CMA, MBA, or a corporate career, our commerce curriculum prepares you for every path.',
+    description: [
+      'B.Com + Addons',
+      'B.Com + CA Foundation',
+      'B.Com + ACCA (UK)'
+    ],
     features: [
       'Financial Accounting, Auditing & Taxation',
       'GST, Income Tax & Corporate Law',
