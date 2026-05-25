@@ -546,7 +546,7 @@ const ProgramCard = ({ index, program }: { index: number, program: typeof PROGRA
           <ul className="space-y-2 mb-4">
             {program.description.map((item, idx) => (
               <li key={idx} className="flex items-start gap-2.5 text-slate-700 text-[0.85rem] font-semibold leading-snug">
-                <Check className="w-4 h-4 text-hkbk-red shrink-0 mt-0.5" />
+                <Check className="w-4 h-4 text-hkbk-blue shrink-0 mt-0.5" />
                 <span>{item}</span>
               </li>
             ))}
