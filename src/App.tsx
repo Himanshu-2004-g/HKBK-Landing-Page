@@ -789,8 +789,7 @@ const Footer = () => (
       <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/50 font-medium tracking-wide">
         <p>© {new Date().getFullYear()} HKBK Group of Institutions. All rights reserved.</p>
         <div className="flex items-center gap-6">
-          <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+          <a href="#" className="hover:text-white transition-colors">Design And Develop By Mediagarh</a>
         </div>
       </div>
     </div>
