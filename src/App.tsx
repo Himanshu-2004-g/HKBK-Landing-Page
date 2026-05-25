@@ -308,7 +308,7 @@ const Hero = () => {
               className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 mt-8 sm:mt-0"
             >
               <button className="w-full sm:w-auto px-8 py-4 bg-hkbk-red text-white rounded-md font-bold text-lg hover:bg-opacity-90 transition-all flex items-center justify-center gap-2 shadow-lg">
-                Start Your Journey <ChevronRight className="w-5 h-5" />
+                Apply Now <ChevronRight className="w-5 h-5" />
               </button>
               <button className="w-full sm:w-auto px-8 py-4 bg-white text-hkbk-blue rounded-md font-bold text-lg hover:bg-slate-100 transition-all shadow-lg">
                 Download Brochure
