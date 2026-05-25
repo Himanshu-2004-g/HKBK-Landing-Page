@@ -95,7 +95,11 @@ const PROGRAMS = [
     image: 'https://i.postimg.cc/G2Z61HDn/DBP05877.jpg',
     imagePosition: 'object-[center_35%]',
     duration: '3 Years',
-    description: 'Ranked among the best BBA colleges in Bangalore — HKBK\'s BBA program is your launchpad into the corporate world. With a curriculum built around real business challenges, leadership training, and strong industry connections, we produce managers and entrepreneurs that companies actively seek.',
+    description: [
+      'BBA Aviation',
+      'BBA + Logistics and Supply Chain Management',
+      'BBA + Business Analytics and Digital Marketing'
+    ],
     features: [
       'Marketing, Finance, HR & Operations Management',
       'Business Analytics & Data-Driven Decision Making',
